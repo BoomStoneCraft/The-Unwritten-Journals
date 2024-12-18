@@ -18,6 +18,25 @@
     src: url(./NineByFiveNbp-MypB.ttf);
 }
 
+@keyframes blink {
+    0%{
+        
+        box-shadow: 0px 0px 30px 10px auto;
+        
+    }
+    50%{
+        
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+    100%{
+        
+        box-shadow: 0px 0px 30px 10px auto;
+        
+    }
+
+}
+
+
 
 
 
@@ -49,7 +68,7 @@
     border-bottom:3px solid #a0f002;
     margin:0px;
     padding:0px;
-    height:20vh;
+    height:auto;
     font-family:shark;
     z-index:1000000;
     padding-bottom:20px;
@@ -63,7 +82,7 @@
     padding:0px;
     font-family:shark;
     z-index:1000001;
-    height:20vh;
+    height:130px;
     margin:auto;
 }
 
@@ -138,7 +157,7 @@
     position:absolute;
     top:0px;
     left:0px;
-    width:100vw;
+    width:98%;
     font-size:50px;
     margin:0px;
     padding:0px;
@@ -210,7 +229,7 @@
     margin:0px;
     text-align:center;
     font-family:nine;
-    width:80vw;
+    width:98%;
     margin:auto;
     font-size:30px;
 }
@@ -274,28 +293,30 @@ button{
     color:#a0f002;
     background:#0f141d;
     border:3px solid black;
-    margin:0px;
-    position:absolute;
+    margin:100px;
+    margin-top:130px;
+    width:auto;
+    position:inherit;
     left:20px;
     top:90vh;
     text-align:center;
     font-family:nine;
-    height:10vh;
+    height:auto;
     z-index:99999999999999999999;
-    font-size:40px;
+    font-size:60px;
 }
 
 #Cbutton{
     color:yellow;
     background:#557180;
     border:3px solid black;
-    margin:0px;
-    position:absolute;
-    left:20px;
-    top:90vh;
+    margin:100px;
+    top:140px;
+    position:relative;
     text-align:center;
     font-family:nine;
-    height:10vh;
+    width:auto;
+    height:auto;
     z-index:99999999999999999999;
     font-size:40px;
 }
@@ -389,7 +410,7 @@ button{
     text-align:center;
     font-family:shark;
     width:auto;
-    height:10vh;
+    height:auto;
     z-index:99999999999999999999;
     font-size:40px;
 
@@ -449,6 +470,7 @@ button{
 }
 
 .decor{
+    animation: blink 0.5s linear 0s infinite;
     border-radius:1000000000000000000px;
     border:3px solid black;
     width:1vw;
@@ -457,6 +479,8 @@ button{
     left:10px;
     top:10px;
 }
+
+
 
 .ethernet{
     position:absolute;
@@ -499,6 +523,14 @@ button{
     z-index: -1;
 }
 
+#cgrade{
+    position:relative;
+    width:98%;
+    margin:0px;
+    height:auto;
+    margin-bottom:350px;
+}
+
 @media screen and (max-width:350px) {
     .Wbody {
         top:221px;
@@ -518,5 +550,40 @@ button{
 @media screen and (max-width:390px) {
     .header{
         height:260px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    #cgrade{
+        margin-bottom:0px;
+        height:100vh;
+    }
+}
+
+@media screen and (max-width:450px){
+    .cbody{
+        top:250px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .Rheaderimg{
+        position:absolute;
+        z-index:10000000000000000000000000000000000;
+        left:40vw;
+        top:110px;
+    }
+    .Rbody{
+        margin-top:100px;
+    }
+}
+
+@media screen and (max-width:563px) {
+    .Rheaderimg{
+        top:0px;
+        right:0px;
+    }
+    .Rbody{
+        margin-top:110px;
     }
 }
