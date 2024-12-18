@@ -1,0 +1,464 @@
+
+@font-face {
+    font-family:cholk;
+    src: url(./EraserRegular.ttf);
+}
+@font-face {
+    font-family:Loral;
+    src: url(./Lora-SemiBold.ttf);
+}
+
+@font-face {
+    font-family:shark;
+    src: url(./Shrikhand-Regular.ttf);
+}
+
+@font-face {
+    font-family:nine;
+    src: url(./NineByFiveNbp-MypB.ttf);
+}
+
+.header{
+    background:rgb(53, 53, 53);
+    color:lightblue;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    font-size:90px;
+    border-bottom:3px solid black;
+    margin:0px;
+    padding:0px;
+    height:20vh;
+    font-family:nine;
+    z-index:1000000;
+    text-align:center;
+}
+
+.Rheader{
+    background:#141d2b;
+    color:#a0f002;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    font-size:100px;
+    border-bottom:3px solid #a0f002;
+    margin:0px;
+    padding:0px;
+    height:20vh;
+    font-family:shark;
+    z-index:1000000;
+    padding-bottom:20px;
+}
+
+.Rheaderimg{
+    position:absolute;
+    left:600px;
+    font-size:100px;
+    margin:0px;
+    padding:0px;
+    font-family:shark;
+    z-index:1000001;
+    height:20vh;
+    margin:auto;
+}
+
+.theader{
+    color:white;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    font-size:100px;
+    margin:0px;
+    padding:0px;
+    height:20vh;
+    font-family:shark;
+    z-index:1000000;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+
+.nheader{
+    color:#edc663;
+    position:absolute;
+    background:transparent;
+    top:0px;
+    left:0px;
+    width:98vw;
+    font-size:50px;
+    margin:0px;
+    padding:0px;
+    font-family:shark;
+    z-index:1000000;
+    padding-top:auto;
+    text-align:center;
+    
+}
+
+.Wheader{
+    color:lightblue;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:98vw;
+    font-size:50px;
+    object-fit:99vw;
+    margin:0px;
+    padding:0px;
+    font-family:shark;
+    z-index:1000001;
+    padding-top:auto;
+    text-align:center;
+    
+}
+
+#Wbackgroundimg{
+    
+    position:absolute;
+    width:98vw;
+    height:auto;
+    top:0px;
+    object-fit:80vw;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    z-index:-10000000000000000000;
+}
+
+.cheader{
+    background:#557180;
+    border-bottom:0px solid ;
+    color:yellow;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    font-size:50px;
+    margin:0px;
+    padding:0px;
+    font-family:shark;
+    z-index:1000000;
+    padding-top:auto;
+    text-align:center;
+    
+}
+
+.nbody{
+    background:transparent;
+    color:#edc663;
+    border:3px transparent #00ff38;
+    position:relative;
+    top: -15px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    margin-top:50px;
+    text-align:center;
+    font-family:Loral;
+}
+
+.body{
+    background:#c86000;
+    color:#8d16a8;
+    position:relative;
+    top:121px;
+    left:0px;
+    margin:0px;
+    text-align:center;
+    font-family:Loral;
+}
+
+.Rbody{
+    background:#141d2b;
+    color:#a0f002;
+    position:relative;
+    top:151px;
+    left:0px;
+    margin:0px;
+    text-align:center;
+    font-family:nine;
+    width:80vw;
+    margin:auto;
+    font-size:30px;
+}
+
+.tbody{
+    color:white;
+    position:relative;
+    top:151px;
+    left:0px;
+    margin:0px;
+    text-align:center;
+    font-family:nine;
+    width:80vw;
+    margin:auto;
+    font-size:30px;
+}
+
+.cbody{
+    color:yellow;
+    position:relative;
+    top:151px;
+    left:0px;
+    margin:0px;
+    text-align:center;
+    font-family:nine;
+    width:80vw;
+    margin:auto;
+    font-size:30px;
+}
+
+.Wbody{
+    color:lightblue;
+    position:relative;
+    top:121px;
+    left:0px;
+    object-fit:90vw;
+    margin:0px;
+    width:98vw;
+    padding:0px;
+    text-align:center;
+    font-family:Loral;
+}
+
+.Wbackground{
+    background:rgb(53, 53, 53);
+    width:98vw;
+    height:100vh;
+    position:inherit;
+    object-fit:100vw;
+    margin:0px;
+    padding:0px;
+    bottom:100vh;
+    left:0px;
+    z-index:-9;
+    opacity: 0.50;
+}
+
+.background{
+    background:black;
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    object-fit:100vw;
+    margin:0px;
+    padding:0px;
+    top:0px;
+    left:0px;
+    z-index:-9;
+    opacity: 0.50;
+}
+
+button{
+    color:white;
+    border:3px solid black;
+    width:10vw;
+    height:70vh;
+    margin:0px;
+    position:relative;
+    left:20px;
+    top:0px;
+    margin-left:5px;
+    text-align:center;
+    font-family:Loral;
+}
+
+#Rbutton{
+    color:#a0f002;
+    background:#0f141d;
+    border:3px solid black;
+    margin:0px;
+    position:absolute;
+    left:20px;
+    top:90vh;
+    text-align:center;
+    font-family:nine;
+    height:10vh;
+    z-index:99999999999999999999;
+    font-size:40px;
+}
+
+#Cbutton{
+    color:yellow;
+    background:#557180;
+    border:3px solid black;
+    margin:0px;
+    position:absolute;
+    left:20px;
+    top:90vh;
+    text-align:center;
+    font-family:nine;
+    height:10vh;
+    z-index:99999999999999999999;
+    font-size:40px;
+}
+
+
+.tbutton{
+    color:white;
+    background:rgb(128, 44, 14);
+    border:3px solid black;
+    margin:0px;
+    position:absolute;
+    left:20px;
+    top:90vh;
+    text-align:center;
+    font-family:nine;
+    height:10vh;
+    z-index:99999999999999999999;
+    font-size:40px;
+}
+
+#nbutton{
+    color:#141d2b;
+    background:#edc663;
+    border:3px solid #141d2b;
+    margin:0px;
+    position:relative;
+    left:20px;
+    top:5vh;
+    text-align:center;
+    font-family:nine;
+    height:10vh;
+    z-index:99999999999999999999;
+    font-size:40px;
+}
+
+#whole{
+    width:98vw;
+    z-index:-1;
+    height:75vh;
+    background:black;
+    position:absolute;
+    left:10px;
+    top:140px;
+    
+
+}
+
+#revue{
+    left:0px;
+    color:white;
+    top:33px;
+    background:green;
+    border-left:5px solid black;
+}
+
+#tectonic{
+    left:0px;
+    top:25px;
+    color:white;
+    background:red;
+    border-left:5px solid black;
+}
+
+#north{
+    left:2px;
+    top:39px;
+    color:white;
+    background:blue;
+    border-left:5px solid black;
+}
+
+#Climate{
+    left:0px;
+    top:39px;
+    color:white;
+    background:rgb(189, 0, 173);
+    border-left:5px solid black;
+}
+
+#Wbutton{
+    color:rgb(53, 53, 53);
+    background:lightblue;
+    box-shadow:white 1px 0 10px;
+    border:3px solid black;
+    margin:0px;
+    position:relative;
+    left:20px;
+    top:90vh;
+    text-align:center;
+    font-family:shark;
+    height:10vh;
+    z-index:99999999999999999999;
+    font-size:40px;
+
+
+}
+
+#War{
+    left:0px;
+    top:39px;
+    color:white;
+    background:orange;
+    border-left:5px solid black;
+}
+
+.timg{
+    z-index:-99999;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:0px;
+    height:100vh;
+    width:100vw;
+}
+
+.cimg{
+    z-index:-99999;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    height:98vw;
+    width:98vw;
+}
+
+.back{
+    z-index:-99998;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    height:98vw;
+    width:98vw;
+}
+
+.server{
+    left:2px;
+    top:30px;
+    color:lightblue;
+    background:gray;
+    border-left:5px solid black;
+}
+
+.decor{
+    border-radius:1000000000000000000px;
+    border:3px solid black;
+    width:1vw;
+    position:absolute;
+    height:1vw;
+    left:5px;
+    top:10px;
+}
+
+.ethernet{
+    position:absolute;
+    height:10vh;
+    width:auto;
+    z-index:100000000000000000000000000;
+    left:-45pw;
+    top:56vh;
+
+}
+
+.nbackground{
+    border:3px solid #edc663;
+    top:50px;
+    height:22vh;
+}
