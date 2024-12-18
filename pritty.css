@@ -18,13 +18,16 @@
     src: url(./NineByFiveNbp-MypB.ttf);
 }
 
+
+
+
 .header{
     background:rgb(53, 53, 53);
     color:lightblue;
     position:absolute;
     top:0px;
     left:0px;
-    width:100vw;
+    width:100%;
     font-size:90px;
     border-bottom:3px solid black;
     margin:0px;
@@ -166,6 +169,7 @@
     position:relative;
     top:121px;
     left:0px;
+    width:auto;
     margin:0px;
     text-align:center;
     font-family:Loral;
@@ -328,9 +332,10 @@ button{
 }
 
 #whole{
-    width:98vw;
+    width:95vw;
     z-index:-1;
-    height:75vh;
+    height:2000px;
+    margin-bottom:1000px;
     background:black;
     position:absolute;
     left:10px;
@@ -372,16 +377,18 @@ button{
 }
 
 #Wbutton{
+    
     color:rgb(53, 53, 53);
     background:lightblue;
     box-shadow:white 1px 0 10px;
     border:3px solid black;
-    margin:0px;
-    position:relative;
-    left:20px;
-    top:90vh;
+    margin:100px;
+    position:inherit;
+    left:0px;
+    top:120%;
     text-align:center;
     font-family:shark;
+    width:auto;
     height:10vh;
     z-index:99999999999999999999;
     font-size:40px;
@@ -431,7 +438,11 @@ button{
 
 .server{
     left:2px;
-    top:30px;
+    bottom:100px;
+    margin-bottom:100px;
+    position:inherit;
+    width:100px;
+    height:470px;
     color:lightblue;
     background:gray;
     border-left:5px solid black;
@@ -443,17 +454,17 @@ button{
     width:1vw;
     position:absolute;
     height:1vw;
-    left:5px;
+    left:10px;
     top:10px;
 }
 
 .ethernet{
     position:absolute;
-    height:10vh;
+    height:70px;
     width:auto;
     z-index:100000000000000000000000000;
-    left:-45pw;
-    top:56vh;
+    left:10px;
+    top:56px;
 
 }
 
@@ -461,4 +472,51 @@ button{
     border:3px solid #edc663;
     top:50px;
     height:22vh;
+}
+
+#Wbody {
+    height:auto;
+    width: 98%;
+    margin-bottom:330px;
+    background: linear-gradient(rgb(88, 123, 139), rgb(46, 70, 80))
+}
+
+.shelf{
+    width:100%;
+    top:620px;
+    position:absolute;
+    height:50px;
+    background:gray;
+    z-index: -1;
+}
+
+.shelf2{
+    width:100%;
+    top:1200px;
+    position:absolute;
+    height:50px;
+    background:gray;
+    z-index: -1;
+}
+
+@media screen and (max-width:350px) {
+    .Wbody {
+        top:221px;
+    
+    }
+    #Wbody{
+        margin-bottom:450px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .header{
+        height:200px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .header{
+        height:260px;
+    }
 }
