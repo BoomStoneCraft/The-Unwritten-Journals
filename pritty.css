@@ -348,9 +348,10 @@ button{
     position:relative;
     left:20px;
     top:5vh;
+    width:auto;
     text-align:center;
     font-family:nine;
-    height:10vh;
+    height:auto;
     z-index:99999999999999999999;
     font-size:40px;
 }
@@ -497,8 +498,18 @@ button{
 
 .nbackground{
     border:3px solid #edc663;
-    top:50px;
-    height:22vh;
+    top:0px;
+    position:inherit;
+    margin:0px;
+    padding:0px;
+    height:fit-content;
+    background:transparent;
+    color:#edc663;
+    left:0px;
+    margin-top:80px;
+    padding-top:100px;
+    text-align:center;
+    font-family:Loral;
 }
 
 #Wbody {
@@ -508,6 +519,10 @@ button{
     background: linear-gradient(rgb(88, 123, 139), rgb(46, 70, 80))
 }
 
+#one{
+    top:30px;
+
+}
 .shelf{
     width:100%;
     top:620px;
@@ -606,3 +621,16 @@ button{
         margin-top:0px;
     }
 }
+
+
+@media only screen and (max-width:661px){
+    .nheader{
+        font-size:25px;
+    }
+    
+    #one{
+        font-size:20px;
+        top:10px;
+    }
+}
+
