@@ -63,7 +63,7 @@
     position:absolute;
     top:0px;
     left:0px;
-    width:100vw;
+    width:98vw;
     font-size:100px;
     border-bottom:3px solid #a0f002;
     margin:0px;
@@ -216,8 +216,7 @@
     margin:0px;
     text-align:center;
     font-family:nine;
-    width:80vw;
-    margin:auto;
+    width:98vw;
     font-size:30px;
 }
 
@@ -326,13 +325,15 @@ button{
     color:white;
     background:rgb(128, 44, 14);
     border:3px solid black;
-    margin:0px;
-    position:absolute;
+    margin:140px;
+    position:inherit;
+    margin-bottom:0px;
     left:20px;
+    width:auto;
     top:90vh;
     text-align:center;
     font-family:nine;
-    height:10vh;
+    height:auto;
     z-index:99999999999999999999;
     font-size:40px;
 }
@@ -585,5 +586,21 @@ button{
     }
     .Rbody{
         margin-top:110px;
+    }
+}
+
+@media screen and (max-width:965px){
+    .tbody{
+        margin-top:120px;
+
+    }
+}
+
+@media screen and (max-width:455px){
+    .theader{
+        font-size:30px;
+    }
+    .tbody{
+        margin-top:0px;
     }
 }
