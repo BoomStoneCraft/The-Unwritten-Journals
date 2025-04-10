@@ -39,7 +39,6 @@
 
 
 
-
 .header{
     background:rgb(53, 53, 53);
     color:lightblue;
@@ -53,6 +52,22 @@
     padding:0px;
     height:20vh;
     font-family:nine;
+    z-index:1000000;
+    text-align:center;
+}
+
+.Uheader{
+    color:black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    font-size:50px;
+    margin:0px;
+    overflow: hidden;
+    padding:1px;
+    height:auto;
+    font-family:Loral;
     z-index:1000000;
     text-align:center;
 }
@@ -179,6 +194,36 @@
     padding:0px;
     margin-top:50px;
     text-align:center;
+    font-family:Loral;
+}
+
+.Ugrade{
+    background:transparent;
+    color:black;
+    position:relative;
+    top: -15px;
+    left:0px;
+    height:100vh;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    margin-top:50px;
+    text-align:center;
+    font-family:Loral;
+}
+
+.Ubody{
+    background:transparent;
+    color:black;
+    position:relative;
+    left:0px;
+    top:0px;
+    margin:0px;
+    padding:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+    text-indent:30px;
+    text-align:left;
     font-family:Loral;
 }
 
@@ -549,6 +594,32 @@ button{
     margin-bottom:350px;
 }
 
+#space{
+    height:180px;
+}
+
+#Ubutton{
+    
+    color:rgb(0, 0, 0);
+    background:#8e001c;
+    box-shadow:white 1px 0 10px;
+    border:3px solid black;
+    margin:0px;
+    position:relative;
+    left:47%;
+    top:120%;
+    text-align:center;
+    font-family:shark;
+    width:auto;
+    height:auto;
+    z-index:99999999999999999999;
+    font-size:40px;
+}
+
+
+
+
+
 @media screen and (max-width:350px) {
     .Wbody {
         top:221px;
@@ -634,3 +705,8 @@ button{
     }
 }
 
+@media only screen and (max-width:449px){
+    #space{
+        height:280px;
+    }
+}
