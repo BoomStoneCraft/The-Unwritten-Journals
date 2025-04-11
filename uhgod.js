@@ -19,7 +19,7 @@ function Ulike () {
 
             function writeTextFile(afilename, output)
             {
-                var txtfile = new File(afilename);
+                var txtfile = new File(afilename, null);
                 txtfile.writeln(output);
                 txtfile.close();
             }
