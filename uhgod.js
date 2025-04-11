@@ -14,11 +14,11 @@ function Ulike () {
     fetch("./Ulike.txt")
         .then((res) => res.text())
         .then((text) => {
-            writeTextFile("Ulike.txt", text+1)
+            writeTextFile("Ulike", text+1)
 
             function writeTextFile(afilename, output)
             {
-                var txtfile = new File(afilename, {type: "application/octet-stream"});
+                var txtfile = new File([txt], afilename);
                 txtfile.writeln(output);
                 txtfile.close();
             }
